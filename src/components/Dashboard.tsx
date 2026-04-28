@@ -17,7 +17,7 @@ export default function Dashboard() {
 
   const filtered = allEvents.filter(ev => filters[ev.artist]);
 
-  // Per-artist next 4 upcoming events
+  // Per-artist next 4 upcoming eventsrrr
   const now = Date.now();
   const upcomingByArtist = useMemo(() => {
     const map: Record<string, NormalizedEvent[]> = {};
