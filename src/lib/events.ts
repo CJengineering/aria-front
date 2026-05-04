@@ -150,6 +150,7 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'French soprano, now based in Germany. Inaugural Bocelli scholar (2020). Active in baroque and contemporary opera across Europe.',
     website: 'https://clarabarbierserrano.com',
+    instagram: null,
   },
   {
     slug: 'seonwoo-lee',
@@ -159,6 +160,7 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'South Korean soprano based in Munich, member of the Bayerische Staatsoper Opernstudio. Represented by Rayfield Allied.',
     website: 'https://seonwoo-lee.com',
+    instagram: 'https://www.instagram.com/seonwoolee_sop/',
   },
   {
     slug: 'anastasia-koorn',
@@ -168,6 +170,7 @@ export const ARTISTS = [
     type: 'Mezzo-soprano',
     bio: 'American mezzo-soprano. Masters student at the Royal College of Music, performing with Glyndebourne and Palm Beach Opera.',
     website: 'https://anastasiakoorn.squarespace.com',
+    instagram: 'https://www.instagram.com/anastasiakoornmezzo/',
   },
   {
     slug: 'henna-mun',
@@ -177,6 +180,7 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'South Korean soprano. Harewood Artist with the English National Opera and 2024 John Christie Award recipient at Glyndebourne Festival.',
     website: 'https://hennamun.com',
+    instagram: 'https://www.instagram.com/hennamun_soprano/',
   },
   {
     slug: 'charlotte-jane-kennedy',
@@ -186,6 +190,7 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'British soprano, masters student at the RCM, first-class graduate of the Royal Northern College of Music, and Alvarez Emerging Artist at Garsington Opera.',
     website: 'https://charlottejanekennedy.com',
+    instagram: 'https://www.instagram.com/charlottejanekennedy/',
   },
   {
     slug: 'laura-mekhail',
@@ -195,5 +200,6 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'Egyptian soprano. No dedicated personal website. Active on Instagram @lauramekhail_sop.',
     website: null,
+    instagram: 'https://www.instagram.com/lauramekhail_sop/',
   },
 ];

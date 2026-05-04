@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { Instagram } from 'lucide-react';
 import { ARTISTS, getAllEvents } from '@/lib/events';
 
 export default async function ArtistDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -22,9 +23,17 @@ export default async function ArtistDetailPage({ params }: { params: Promise<{ s
           <div>
             <h1 className="text-3xl font-bold text-aria-gold">{artist.name}</h1>
             <p className="text-aria-text-muted">{artist.type} — {artist.country}, Scholar {artist.year}</p>
-            {artist.website && (
-              <a href={artist.website} target="_blank" rel="noopener noreferrer" className="text-sm text-aria-gold hover:underline mt-1 inline-block">🌐 {artist.website}</a>
-            )}
+            <div className="flex flex-col gap-1 mt-1">
+              {artist.website && (
+                <a href={artist.website} target="_blank" rel="noopener noreferrer" className="text-sm text-aria-gold hover:underline inline-block">🌐 {artist.website}</a>
+              )}
+              {artist.instagram && (
+                <a href={artist.instagram} target="_blank" rel="noopener noreferrer" className="text-sm text-aria-gold hover:underline inline-flex items-center gap-1.5">
+                  <Instagram size={14} />
+                  {artist.instagram}
+                </a>
+              )}
+            </div>
           </div>
         </div>
 
