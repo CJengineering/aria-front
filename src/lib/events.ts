@@ -150,7 +150,7 @@ export const ARTISTS = [
     type: 'Soprano',
     bio: 'French soprano, now based in Germany. Inaugural Bocelli scholar (2020). Active in baroque and contemporary opera across Europe.',
     website: 'https://clarabarbierserrano.com',
-    instagram: null,
+    instagram: 'https://www.instagram.com/clara_barbier_serrano/',
   },
   {
     slug: 'seonwoo-lee',
