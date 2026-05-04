@@ -10,7 +10,7 @@ export default function Dashboard() {
   const [filters, setFilters] = useState<Record<string, boolean>>(
     Object.fromEntries(ARTIST_NAMES.map(n => [n, true]))
   );
-//rr
+//rrlll
   const toggleFilter = (name: string) => {
     setFilters(prev => ({ ...prev, [name]: !prev[name] }));
   };
