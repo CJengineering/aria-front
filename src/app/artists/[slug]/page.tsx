@@ -13,7 +13,7 @@ export default async function ArtistDetailPage({ params }: { params: Promise<{ s
   return (
     <div className="min-h-screen bg-aria-bg text-aria-text-main">
       <div className="max-w-4xl mx-auto px-8 py-12">
-        <Link href="/artists" className="text-aria-gold hover:underline text-sm mb-6 inline-block">← Back to Artists</Link>
+        <Link href="/artists" className="text-aria-gold hover:underline text-sm mb-6 inline-block">← Back to Artists  </Link>
 
         <div className="flex items-center gap-6 mb-8">
           <div className="w-20 h-20 rounded-full bg-slate-600 flex items-center justify-center text-3xl font-bold text-white">
